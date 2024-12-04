@@ -2141,7 +2141,8 @@ pub fn is_disable_account() -> bool {
 
 #[inline]
 pub fn is_disable_installation() -> bool {
-    is_some_hard_opton("disable-installation")
+    //is_some_hard_opton("disable-installation")
+    true
 }
 
 // This function must be kept the same as the one in flutter and sciter code.
